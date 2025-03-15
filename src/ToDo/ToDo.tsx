@@ -128,7 +128,7 @@ function ToDo({ darkMode, TodoHook }: ToDoProps) {
         </button>
         <button
           className={`px-4 py-2 rounded-lg cursor-pointer ${
-            filter === "active" ? "text-white" : "text-DarkGrayishBlue"
+            filter === "active" ? "text-BrightBlue" : "text-DarkGrayishBlue"
           }`}
           onClick={() => setFilter("active")}
         >
@@ -136,7 +136,7 @@ function ToDo({ darkMode, TodoHook }: ToDoProps) {
         </button>
         <button
           className={`px-4 py-2 rounded-lg cursor-pointer ${
-            filter === "completed" ? "text-white" : "text-DarkGrayishBlue"
+            filter === "completed" ? "text-BrightBlue" : "text-DarkGrayishBlue"
           }`}
           onClick={() => setFilter("completed")}
         >
